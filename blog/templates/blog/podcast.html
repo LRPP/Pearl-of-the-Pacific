@@ -1,0 +1,21 @@
+<html>
+  <head>
+      <title>Pearl of the Pacific</title>
+    </head>
+    <body>
+      <h1>Pearl of the Pacific</h1>
+      <div>
+        <h3>E129: Did you miss me?</h3>
+        <p>video goes here</p>
+        <p>Show notes go here</p>
+      </div>
+      {% for post in posts %}
+        <div>
+          <p>published: {{ post.published_date }}</p>
+          <h1><a href="">{{ post.title }}</a></h1>
+          <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+      {% endfor %}
+      </div>
+    </body>
+</html>
