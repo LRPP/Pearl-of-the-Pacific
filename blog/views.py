@@ -6,17 +6,17 @@ def home(request):
     return render(request, 'blog/index.html')
 
 def about(request):
-    pass
+    return render(request, 'blog/about.html')
 
 def podcast(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
     return render(request, 'blog/podcast.html', {'posts': posts})
 
 def gallery(request):
-    pass
+    return render(request, 'blog/gallery.html')
 
 def orderform(request):
-    pass
+    return render(request, 'blog/orderform.html')
 
 def contact(request):
-    pass
+    return render(request, 'blog/contact.html')
