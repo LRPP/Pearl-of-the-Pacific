@@ -6,7 +6,7 @@ $secondary-paragraph-color: gray
 
 // fonts
 $primary-header-font: "papyrus", sans-serif
-$secondary-header-font: papyrus, sans-serif
+$secondary-header-font: "papyrus", sans-serif
 $primary-paragraph-font: Georgia, serif
 $secondary-paragraph-font: Garamond, serif
 
@@ -14,13 +14,21 @@ $secondary-paragraph-font: Garamond, serif
 
 
 body
-    padding-left: 15px
+
 
 h1
-    font: $primary-header-font
+    font-family: $primary-header-font
     color: $primary-header-color
 
+.logo--resize
+    max-height: 50px
+
 .page-header
-    background-color: #ff9400
-    margin-top: 0
-    padding: 20px 20px 20px 40px
+    margin-top: 80px
+    padding-left: 15px
+
+.posts
+    padding-left: 15px
+
+.container-fluid
+    padding-left: 0px
