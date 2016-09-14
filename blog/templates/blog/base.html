@@ -1,4 +1,4 @@
-{% load static from staticfiles %}
+{% load staticfiles %}
 
 <!DOCTYPE html>
 <html>
@@ -44,7 +44,9 @@
           </div>
         </div>
       </nav>
-      {% block content %}
-      {% endblock %}
+      <div class="">
+        {% block content %}
+        {% endblock %}
+      </div>
     </body>
 </html>

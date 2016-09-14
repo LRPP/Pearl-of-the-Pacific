@@ -5,4 +5,9 @@ h1 {
   font: "papyrus", sans-serif;
   color: purple; }
 
+.page-header {
+  background-color: #ff9400;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px; }
+
 /*# sourceMappingURL=main.css.map */
