@@ -10,12 +10,14 @@
   <div class="col-xs-12 col-md-9">
     {% for post in posts %}
       <div class="posts">
-        <h3><a href="">{{ post.title }}</a></h3>
-        <p>published: {{ post.published_date }}</p>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.published_date }}</p>
         <p>{{ post.text|linebreaksbr }}</p>
         <hr>
       </div>
     {% endfor %}
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/a51bZixHxE8" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/p_pyx5WbkHE" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="col-md-3">
     <h5>sidebar</h5>
